@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}{{ config.title }} – Home{% endblock %}
+{% block title %}{{ section.title | default(value=config.title) }}{% endblock title %}
 
 {% block content %}
-<h1>Welcome</h1>
-<p>This is a little website to show some of the random things I do.</p>
+  <div class="content">
+    {{ section.content | safe }}
+  </div>
 {% endblock content %}

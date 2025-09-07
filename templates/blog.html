@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ get_url(path="styles/blog.css") }}">
+
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<div class="blog-list">
+    {% for page in section.pages %}
+        <p class="blog-page-button"><a class="blog-page-link" href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+    {% endfor %}
+</div>
+{% endblock content %}
