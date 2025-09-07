@@ -6,6 +6,7 @@ body {
 
 a {
     color: cyan;
+    text-decoration: none;
 }
 
 h1, h2 {
@@ -19,6 +20,14 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 17px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgba(5, 101, 235, 0.75);
+  margin: 20px 0;
+  width: 100%;
 }
 
 #center-it {
@@ -36,7 +45,7 @@ p {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 1px;
+    padding-bottom: 15px;
     border-radius: 5px;
 }
 
@@ -87,4 +96,14 @@ p {
 
 .button-bar:hover{
     background-color: rgba(5, 101, 235, 0.25);
+}
+
+.social-link {
+    font-size: 24px;
+    color: white;
+}
+
+.social-links {
+    margin-top: 10px;
+    margin-left: 15px;
 }

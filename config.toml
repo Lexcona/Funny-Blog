@@ -16,3 +16,6 @@ hard_breaks = true
 
 [extra]
 default_layout = "base"
+
+[extra.socials]
+github = "https://github.com/Lexcona"

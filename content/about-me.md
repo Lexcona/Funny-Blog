@@ -18,6 +18,6 @@ I use a JetBrains IDE called [Rider](https://www.jetbrains.com/rider/).
 
 ## Coding Languages I Know
 
-- Python (5 years)  
-- C# (2 years)  
-- JavaScript (2 years)  
+Python (5 years)  
+C# (2 years)  
+JavaScript (2 years)  

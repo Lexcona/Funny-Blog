@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="social-links" id="center-it">
+  {% for network, url in config.extra.socials %}
+    <a class="social-link" href="{{ url }}" target="_blank" rel="noopener noreferrer" class="social-link {{ network }}" title="{{ network | capitalize }}">
+      <i class="fab fa-{{ network }}"></i>
+    </a>
+  {% endfor %}
+</div>
