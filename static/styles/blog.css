@@ -4,6 +4,7 @@
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 10px;
     outline: 2px solid rgba(5, 101, 235, 0.75);
 }
 
@@ -45,7 +46,7 @@
 
 .blog-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     align-self: center;

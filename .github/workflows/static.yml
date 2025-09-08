@@ -9,8 +9,8 @@ jobs:
   build:
     name: Publish site
     runs-on: ubuntu-latest
-    permissions:            # <-- added this section
-      contents: write       # gives write access to push to gh-pages
+    permissions:
+      contents: write
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
