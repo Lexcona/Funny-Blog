@@ -107,3 +107,7 @@ hr {
     margin-top: 10px;
     margin-left: 15px;
 }
+
+.social-link i:hover {
+    color: rgba(5, 101, 235, 1);
+}
