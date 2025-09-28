@@ -49,55 +49,6 @@ hr {
     border-radius: 5px;
 }
 
-.big-bar{
-    background-color: rgba(5, 101, 235, 0.5);
-    /*
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    */
-    padding-bottom: 1px;
-    /*
-    border-radius: 5px;
-    */
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    text-align: center;
-    justify-content: center;
-}
-.button-link { 
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-.button-bar {
-    /*
-    padding-left: 5px;
-    padding-right: 5px;
-    */
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width: 100px;
-    
-    /*
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 5px;
-    */
-}
-
-.button-bar:hover{
-    background-color: rgba(5, 101, 235, 0.25);
-}
-
 .social-link {
     font-size: 24px;
     color: white;
