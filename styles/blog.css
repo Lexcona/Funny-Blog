@@ -1,0 +1,55 @@
+.blog-listing {
+    background-color: rgba(5, 101, 235, 0.25);
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    outline: 2px solid rgba(5, 101, 235, 0.75);
+}
+
+.blog-listing-publish {
+    font-size: 10px;
+    color: grey;
+    text-align: left;
+}
+
+.blog-page-button {
+    font-size: 20px;
+    /*
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    background-color: rgba(5, 101, 235, 0.25);
+
+    border-radius: 5px;
+    */
+}
+
+.blog-listing-description {
+    font-size: 15px;
+    color: white;
+}
+
+.blog-page-link {
+    color: lightblue;
+    text-decoration: none;
+}
+
+/*
+.blog-page-button:hover{
+    background-color: rgba(5, 101, 235, 0.5);
+}
+*/
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
