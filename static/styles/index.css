@@ -9,6 +9,19 @@ body {
     margin-right: 5px;
 }
 
+main {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+
 a {
     color: cyan;
     text-decoration: none;
